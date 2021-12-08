@@ -1,5 +1,5 @@
 # Julia starter project
-[![.github/workflows/test.yml](../../actions/workflows/test.yml/badge.svg)](../../actions/workflows/test.yml)
+[![Run tests](../../actions/workflows/test.yml/badge.svg)](../../actions/workflows/test.yml)
 
 ## Install
 
