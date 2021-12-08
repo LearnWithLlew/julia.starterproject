@@ -6,5 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: julia-actions/setup-julia@v1
-      - run: mix deps.get
-      - run: mix test
+        with:
+          version: 1.6
+          arch: 64
+      - run: julia runtests.jl
