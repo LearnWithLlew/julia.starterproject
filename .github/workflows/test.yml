@@ -17,4 +17,4 @@ jobs:
         with:
           version: ${{ matrix.julia-version }}
           arch: ${{ matrix.julia-arch }}
-      - run: julia runtests.jl
+      - run: ./run_tests.sh
